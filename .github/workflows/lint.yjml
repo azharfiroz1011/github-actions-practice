@@ -1,0 +1,14 @@
+# lint checks if syntax, format, indentation (Liniting) is correct or not
+
+name: auto linter
+
+on:
+  push:
+    paths: "*.py"
+
+jobs:
+  code:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout the code
+        uses: actions/checkout@v7
