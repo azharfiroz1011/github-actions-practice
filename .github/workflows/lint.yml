@@ -15,3 +15,6 @@ jobs:
 
       - name: install ruffer
         run: pip install ruff
+
+      - name: check file for liniting
+        run: ruff check .
