@@ -1,4 +1,4 @@
-# commit to check auto linter pipeline
+# commit to check auto linter pipeline 2nd time
 from flask import Flask, render_template
 app = Flask(__name__)
 
