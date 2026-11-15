@@ -12,3 +12,6 @@ jobs:
     steps:
       - name: checkout the code
         uses: actions/checkout@v7
+
+      - name: install ruffer
+        run: pip install ruff
