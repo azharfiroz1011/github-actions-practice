@@ -1,0 +1,16 @@
+# Workflow
+# Should have Name
+
+name: Hello
+
+on:
+  workflow_dispatch: 
+
+jobs:
+  say-hello:
+    # creates an ephermal cotainer with ubuntu running
+    runs-on: ubuntu-latest
+    # that ephermal container will have steps to execute, hence name those steps and use 'run:'
+    steps:
+      - name: say hello to everyone
+        run: echo "Hello Dosto"
